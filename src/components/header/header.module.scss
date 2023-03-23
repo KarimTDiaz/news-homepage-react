@@ -1,13 +1,27 @@
 
 
 .header{
+    position: relative;
     overflow: hidden;
-
+    margin-bottom: 4rem;
     &-top{
         display: flex;
         justify-content: space-between;
         align-items: center;
         height: 5.6rem;
+    }
+    &-data-container{
+        @media screen and (min-width:768px) {
+            display: flex;
+            justify-content: space-between;
+            width: 45.625rem;
+            padding-top:0.7rem
+        }
+    }
+    &-bottom-container{
+        @media screen and (min-width:768px) {
+            width: 350px;
+        }
     }
 }
 
@@ -16,6 +30,12 @@
     height: 19rem;
     background-image: url('./public/images/image-web-3-mobile.jpg');
     background-size: cover;
+    @media screen and (min-width:768px) {
+        width: 45.625rem;
+        height: 18.75rem;
+        background-image: url('./public/images/image-web-3-desktop.jpg');
+
+    }
 }
 
 .title{
@@ -23,9 +43,16 @@
     font-size: 2.5rem;
     font-weight: 800;
     color: var(--primary-color);
+    @media screen and (min-width:768px) {
+        width: 350px;
+        margin: 0;
+        font-size: 56px;
+    }
 }
 
 .data{
+    margin-bottom: 2rem;
     font-size: 15px;
+    line-height: 1.625rem;
     color: var(--secondary-color);
 }

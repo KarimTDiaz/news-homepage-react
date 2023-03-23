@@ -1,0 +1,36 @@
+.services {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	width: 343px;
+	height: 451px;
+	@media screen and (min-width:768px) {
+		flex-direction: row;
+		gap: 0.5rem;
+		width: 1110px;
+		height: 129px;
+	}
+
+	&-item {
+		display: flex;
+		align-items: center;
+		gap: 1.5rem;
+	}
+	&-number {
+		font-size: 2rem;
+		font-weight: 800;
+		color: var(--numbers-color);
+	}
+	&-title {
+		margin-top: 0.5rem;
+	}
+	&-data {
+		font-size: 15px;
+		font-weight: 300;
+		color: var(--secondary-color);
+	}
+}
+.image {
+	width: 100px;
+	height: 129px;
+}
