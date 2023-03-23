@@ -1,0 +1,31 @@
+
+
+.header{
+    overflow: hidden;
+
+    &-top{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 5.6rem;
+    }
+}
+
+.banner{
+    width: 21.5rem;
+    height: 19rem;
+    background-image: url('./public/images/image-web-3-mobile.jpg');
+    background-size: cover;
+}
+
+.title{
+    width: 280px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.data{
+    font-size: 15px;
+    color: var(--secondary-color);
+}

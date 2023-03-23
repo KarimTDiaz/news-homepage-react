@@ -1,0 +1,40 @@
+:root{
+	--primary-color:#00001A;
+	--secondary-color:#5E607A;
+	--third-color:#F15D51;
+	--fourth-color:#E9AA52;
+	--almost-color:#FFFDFA;
+	--numbers-color:#C5C6CE;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+img{
+	max-width: 100%;
+	display: block;
+}
+
+ul {
+	list-style: none;
+	padding-left: 0;
+	margin-top: 0;
+	margin-bottom: 0;
+  }
+  
+  a {
+	text-decoration: none;
+	color: inherit;
+  }
+
+
+body {
+	margin:0;
+	max-width: 1440px;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 0 16px 80px 16px;
+
+	font-family: 'Inter', sans-serif;
+}

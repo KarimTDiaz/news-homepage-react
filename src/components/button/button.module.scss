@@ -1,0 +1,14 @@
+.button{
+    &-read-more{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 185px;
+        height: 48px;
+        font-size: 0.875rem;
+        font-weight: 600;
+        letter-spacing: 0.2737rem;
+        color: var(--almost-color);
+        background-color: var(--third-color);
+    }
+}
